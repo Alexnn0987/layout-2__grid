@@ -1,0 +1,244 @@
+
+/**************************** Общие стиль ***********************************/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    color: #141414;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line-bottom {
+    border-bottom: 1px solid #7A7A7A;
+}
+
+h1 {
+    font-size: 64px; 
+    font-weight: 600;   
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px; 
+    font-weight: 600;   
+    color: #BF6024;
+    margin: 0;
+}
+
+/**************************** Шапка сайта ***********************************/
+.header-top {
+    height: 97px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.header-logo {
+    display: flex; 
+    font-weight: 400;
+    color: #434A5C;
+}
+.header .logo {
+    width: 206px;
+    height: 43px;
+}
+.header .logo-text {
+    margin: 20px 0 0 23px;
+}
+.header-contacts{
+    margin-top: 20px;
+}
+.header-contacts a span {
+    color: #484848;
+}
+.header .feedback {
+    text-decoration-line: underline;
+    text-decoration-color: #576698;
+    text-transform: uppercase;
+    color: #576698;
+    margin-right: 18px;
+}
+
+/* Меню */
+.header-menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+}
+.header-menu__list .menu-item {
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu__list .menu-left {
+    width: 610px;
+}
+.header-menu__list .menu-right {
+    width: 300px;
+}
+.header-menu__list li{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.header-menu__list li a {
+    color: #7A7A7A;
+}
+.header-menu__list li a:hover {
+    color: #141414;
+}
+.header-menu__list .menu-left, .header-menu__list .menu-right {
+    padding: 0;
+}
+
+/**************************** Баннер ****************************************/
+.main-banner {
+    padding: 12px 0 25px;
+}
+
+/**************************** Список развлечений ****************************/
+.entertain {
+    padding: 27px 0 60px;
+}
+.entertain h2 {
+    margin-top: 32px;
+}
+.entertain-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 27px;
+}
+.entertain-item {
+    margin: 32px 0;
+}
+.entertain-item span {
+    display: block;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+
+/**************************** Раздел сервиса ********************************/
+.services {
+    padding: 67px 0 75px;
+}
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.services-item__left {
+    width: 555px;
+    background-image: url("images/serveses.jpg");
+}
+.services-block {
+    margin-top: 489px;
+    margin-left: 34px;
+}
+.services .title-text{
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.services-item__left .title-text{
+    color: #fff;
+}
+.services-block__first {
+    padding-top: 84px;
+    padding-left: 73px;
+}
+.services-block__second {
+    padding-top: 65px;
+    padding-left: 73px;
+}
+.services-first, .services-second {  
+    width: 555px; 
+    height: 285px;
+    background-color: #EAEDF2;
+    box-sizing: border-box;
+}
+.services .arrow-link img {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.services-second {
+    margin-top: 30px;
+}
+.services-second p {
+    width: 260px;
+    margin-top: 11px;
+}
+
+/******************* ссылочные кнопки */
+.services-link a {
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 5px 13px;
+    text-transform: uppercase;
+}
+.services-item__left .left__link, .services-second .left__link {
+    border: 1px solid #BF6024;
+    background-color: #BF6024;
+    color: #E5C6B2;
+}
+.services-item__left .right__link {
+    border: 1px solid #E5C6B2;
+    color: #E5C6B2;
+}
+.services-first .arrow-link, .services-second .right__link {
+    border: 1px solid #BF6024;
+    color: #BF6024;
+}
+.services-link {
+    line-height: 30px;
+}
+.services-item__left .services-link {
+    margin-top: 24px;
+}
+.services-item__left .left__link {
+    margin-right: 18px;
+}
+.services-first  .services-link {
+    margin-top: 28px;
+}
+.services-second .services-link {
+    margin-top: 23px;
+}
+.services-second .left__link {
+    margin-right: 12px;
+}
+
+/**************************** Подвал ****************************************/
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 56px 0 70px;
+}
+.footer-list {
+    display: flex;
+}
+.footer-list__item {
+    flex: 1;
+}
+.footer-list__item span, .feedback {
+    font-weight: 600;
+}
+.footer-list__item  p {
+    color: #424242;
+}
+.footer .feedback {
+    text-decoration-line: underline;
+    text-decoration-color: #424242;
+    color: #424242;
+}
+.footer-list__item .footer-text__offer {
+    margin: 0;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4 (html, css - grid)</title>
+    <!-- Подключение шрифтов Roboto и Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="page-main">
+        <div class="container">        
+
+            <!----------------------------------- Шапка сайта ------------------------------------------>
+            <header class="header">            
+                <div class="header-top line-bottom">
+                    <div class="header-logo">
+                        <a class="logo" href="#">
+                            <img src="images/logo_main.svg" alt="Изображение лого синий луг">
+                        </a>                        
+                        <p class="logo-text">Твой лучший курорт</p>
+                    </div>       
+                    <div class="header-contacts">
+                        <a class="feedback" href="#">Обратная связь</a>
+                        <a href="tel:+8800770-30-30"><span>8 800 770 30 30</span></a>
+                    </div>
+                </div>
+
+                <nav class="header-menu__list">                            
+                    <ul class="menu-item menu-left">
+                        <li><a href="#">Курорт</a></li>
+                        <li><a href="#">Чем заняться</a></li>
+                        <li><a href="#">Купить онлайн</a></li>
+                        <li><a href="#">Афиша мероприятий</a></li>
+                        <li><a href="#">Проживание</a></li>
+                    </ul>                        
+                    <ul class="menu-item menu-right">
+                        <li><a href="#">Программа лояльности</a></li>
+                        <li><a href="#">Для бизнеса</a></li>
+                    </ul>                                                      
+                </nav>
+            </header>
+
+            <!----------------------------------- Баннер ----------------------------------------------->
+            <div class="main-banner line-bottom">
+                <img src="images/main_beautiful.jpg" alt="Главное изображение">
+            </div>                      
+
+            <!----------------------------------- Список развлечений ----------------------------------->
+            <section class="entertain line-bottom">            
+                <h1>Отдыхай на курорте <br>синий луг</h1>
+                <h2>Развлечения</h2>
+                <div class="entertain-list">                        
+                    <div class="entertain-item">
+                        <img src="images/entertain_1.jpg" alt="Изображение спортивные развлечения">
+                        <span>Спортивные развлечения</span>
+                    </div>
+                    <div class="entertain-item">
+                        <img src="images/entertain_2.jpg" alt="Изображение развлекательные мероприятия">
+                        <span>Развлекательные мероприятия</span>
+                    </div>
+                    <div class="entertain-item">
+                        <img src="images/entertain_3.jpg" alt="Изображение пешие туры">
+                        <span>Пешие туры</span>
+                    </div>
+                    <div class="entertain-item">
+                        <img src="images/entertain_4.jpg" alt="Изображение спа">
+                        <span>Спа</span>
+                    </div>
+                </div>           
+            </section>
+
+            <!----------------------------------- Раздел сервиса --------------------------------------->     
+            <section class="services line-bottom">
+                    <h2>Проживание на курорте</h2>
+                    <div class="services-list">                        
+                        <div class="services-item__left">
+                            <div class="services-block">
+                                <span class="title-text">Апартаменты люкс</span>
+                                <div class="services-link">
+                                    <a class="left__link" href="#">Забронировать</a>
+                                    <a class="right__link" href="#">Посмотреть</a>
+                                </div>                               
+                            </div>                            
+                        </div>
+                        <div class="services-item__right">
+                            <div class="services-first">
+                                <div class="services-block__first">
+                                    <span class="title-text">Подберите отель <br>по выгодной цене</span>
+                                    <div class="services-link">
+                                        <a class="arrow-link" href="#">Подобрать
+                                            <img src="images/arrow.svg" alt="Стрелка">
+                                        </a>
+                                    </div> 
+                                </div>                                
+                            </div>
+                            <div class="services-second">
+                                <div class="services-block__second">
+                                    <span class="title-text">Программа лояльности</span>
+                                    <p>Покупайте услуги курорта со скидкой до 20% и получите до 300 баллов за регистрацию!</p>
+                                    <div class="services-link">
+                                        <a class="left__link" href="#">Участвовать</a>
+                                        <a class="right__link" href="#">Подробнее</a>
+                                    </div>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!----------------------------------- Подвал ----------------------------------------------->
+            <footer class="footer">
+                <div class="footer-list">
+                    <div class="footer-list__item">
+                        <span>© 2001-2020 Синий луг</span>
+                        <p>Официальный сайт Курорта Синий Луг</p>
+                        <a href="#"><p>Политика конфиденциальности</p></a>
+                    </div>
+                    <div class="footer-list__item">
+                        <a class="feedback" href="#">Обратная связь</a>
+                        <p>Россия, <br>Москва, 113337, ул. Советская, д. 42</p>
+                    </div>
+                    <div class="footer-list__item">
+                        <p class="footer-text__offer">Указанные на сайте цены не являются публичной офертой (ст.435 ГК РФ). Стоимость и возможность предоставления услуг необходимо уточнять в кассах</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+</html>
